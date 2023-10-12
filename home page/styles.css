@@ -1,24 +1,28 @@
-/* Added styles for the registration page */
 .registration-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f4f4f4;
+  background-image: url("/images/travel1_generated.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .registration-container h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
+  color: #000000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 #registration-form {
-  background-color: #fff;
+  background-color: #d0d0d0;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   max-width: 400px;
   margin: 0 auto;
 }
@@ -26,17 +30,19 @@
 label {
   display: block;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: #333;
 }
 
 input[type="text"],
 input[type="password"] {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
+  padding: 7px;
+  margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
 }
 
 input[type="text"]:focus,
@@ -45,18 +51,26 @@ input[type="password"]:focus {
 }
 
 button[type="submit"] {
-  background-color: #007bff;
+  background: #007bff;
   color: #fff;
-  padding: 12px 20px;
+  padding: 14px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background 0.3s;
   font-weight: bold;
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background: #0056b3;
 }
 
-/* Rest of your existing styles here */
+@media (max-width: 500px) {
+  #registration-form {
+    padding: 10px;
+  }
+
+  button[type="submit"] {
+    padding: 12px 16px;
+  }
+}
