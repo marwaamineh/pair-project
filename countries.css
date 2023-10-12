@@ -1,0 +1,110 @@
+body{
+    background-image: url("/images/envio-13.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+img{
+    display: block;
+  width: 15%;
+  float: inline-start;
+}
+h1{
+   color: darkcyan;
+   font-weight: bolder;
+   font-size: 100px;
+   text-align:center;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+#mustSee{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+#mustSee{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.place1{
+    background-color:white;
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 40px;
+    max-width: 400px;
+}
+#img1{
+    width: 300px;
+}
+.place2{
+    background-color:white;
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 40px;
+    max-width: 400px;
+}
+#img2{
+    width: 300px;
+    
+}
+.place3{
+    background-color:white;
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 40px;
+    max-width: 400px;
+}
+#img3{
+    width: 300px;
+}
+.moreInfo{
+    display: none;
+}
+#hotels{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+.hotel1{
+    background-color:white;
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 40px;
+    max-width: 400px;
+}
+#img4{
+    width: 300px;
+}
+.hotel2{
+    background-color:white;
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 40px;
+    max-width: 400px;
+}
+#img5{
+    width: 300px;
+    
+}
+.hotel3{
+    background-color:white;
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 40px;
+    max-width: 400px;
+}
+#img6{
+    width: 300px;
+}
