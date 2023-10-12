@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap");
+/*  { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ } */
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  width: 80%;
+  height: 95vh;
+  border: 1px solid #000;
+  margin: auto;
+}
+header nav {
+  width: 95%;
+  height: 7%;
+  border: 1px solid #000;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  padding: 3px 15px;
+}
+header nav ul li:nth-last-child(1) {
+  background: #000;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+header nav ul li:nth-last-child(1) a {
+  color: #fff;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #121213;
+  font-size: 13px;
+  font-weight: 500;
+  transition: 0.3s linear;
+}
+header nav ul li a:hover {
+  color: gray;
+}
+header .content {
+  position: relative;
+  width: 100%;
+  height: 93%;
+  border: 1px solid #000;
+}
+header .content::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid #000; */
+  background: url("images/plage.jpg") no-repeat center center/cover;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+header .content .cont_bx {
+  width: 500px;
+  height: auto;
+  color: #000000;
+  padding: 30px;
+}
+header .content .cont_bx h1 {
+  line-height: 40px;
+  font-weight: 800;
+  /* margin:0% */
+  /* border: 1px solid #000; */
+}
+header .content .cont_bx p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(241, 241, 241);
+}
+header .content .cont_bx button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background: #000;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+header .content .cont_bx button:hover {
+  background: #969696;
+  border: 2px solid #969696;
+}
+header .trip_bx {
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  /* border: 1px solid #000; */
+}
+header .trip_bx .search_bx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 10px 25px rgb(139, 139, 139);
+  z-index: 1;
+  padding: 0px 20px;
+}
+
+header .trip_bx .search_bx .card {
+  width: 200px;
+  height: 100%;
+  /* border: 1px solid #000; */
+}
+header .trip_bx .search_bx .card h4 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: 700;
+}
+header .trip_bx .search_bx .card h4 .bi {
+  position: absolute;
+  font-size: 13px;
+  margin: 2px 0px 0px 5px;
+  transition: 0.3s linear;
+}
+header .trip_bx .search_bx .card input {
+  margin-top: 3px;
+  padding: 5px 0px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+}
+header .trip_bx .search_bx input[type="button"] {
+  background: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+header .trip_bx .search_bx input[type="button"]:hover {
+  background: #969696;
+}
+/* Inside your CSS file */
+#discover-section {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#country-photos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.country-box {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  width: 200px;
+}
+
+.country-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.more-info {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.more-info:hover {
+  background-color: #0056b3;
+}
+/* Discover Section Styles */
+#discover-section {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#country-photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.country-box {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  width: calc(25% - 20px); /* To make 4 boxes per row */
+  position: relative;
+  overflow: hidden; /* Hide overflowing content */
+  transition: transform 0.2s ease; /* Add a smooth transition effect */
+
+  /* You can add a hover effect to zoom the image here */
+}
+
+.country-box:hover {
+  transform: scale(1.1); /* Zoom in by 10% when hovering */
+}
+
+.country-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.country-box h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.country-box button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-behavior: 500ms;
+}
+#confirmation-message {
+  display: none;
+  background: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease;
+  z-index: 999;
+}
+
+#confirmation-message.show {
+  transform: translateY(0);
+}
+#hotels-section {
+  /* Add your styling for the "Hotels" section here */
+}
+
+#answer-form {
+  margin-top: 20px;
+}
+
+#answer-form label {
+  display: block;
+  font-weight: bold;
+}
+
+#answer {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#user-answers {
+  margin-top: 20px;
+}
+
+#user-answers ul {
+  list-style: none;
+  padding: 0;
+}
+
+#user-answers li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px 0;
+}
+#hotels-content {
+  text-align: center;
+}
+
+.hotel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hotel-info {
+  flex: 1;
+  text-align: left;
+}
+
+.hotel-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hotel-image img {
+  border-radius: 50%;
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+}

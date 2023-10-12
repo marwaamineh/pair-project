@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel Wide Travel Far</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h4>Travel Wide Travel Far</h4>
+        <ul>
+          <li><a id="discover-link" href="#discover-section">Discover</a></li>
+          <li><a href="#hotels-section">Hotels</a></li>
+          <li><a href="#">Restaurants</a></li>
+          <li><a href="#">About US</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+        <i class="bi bi-three-dots"></i>
+      </nav>
+      <div class="content">
+        <div class="cont_bx">
+          <h1>The Right destination for you and your family</h1>
+          <p>
+            Creative taglines have the capability of capturing the attention of
+            potential customers.
+          </p>
+          <button>Start your search</button>
+        </div>
+        <div class="trip_bx">
+          <div class="search_bx">
+            <div class="card">
+              <h4>Location <i class="bi bi-caret-down-fill"></i></h4>
+              <input
+                type="text"
+                name="location"
+                placeholder="Enter Your destination"
+              />
+            </div>
+            <div class="card">
+              <h4>Date <i class="bi bi-caret-down-fill"></i></h4>
+              <input type="date" name="date" />
+            </div>
+            <div class="card">
+              <h4>People <i class="bi bi-caret-down-fill"></i></h4>
+              <input
+                type="number"
+                name="people"
+                placeholder="How many people?"
+              />
+            </div>
+            <input type="button" value="Explore Now" />
+            <div id="confirmation-message" style="display: none"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="discover-section">
+      <h2>Discover</h2>
+      <div id="country-photos">
+        <div class="country-box">
+          <img src="images/shutterstock_667548661v2.jpg" alt="Country 1" />
+          <h3>France</h3>
+          <button class="more-info" href="https://www.lonelyplanet.com/france">
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img src="images/shutterstock_1124332706v2.jpg" alt="Country 2" />
+          <h3>Spain</h3>
+          <button class="more-info" href="https://www.lonelyplanet.com/spain">
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img
+            src="images/istanbul-turkey0616-68fdff743e434ae68541a94c54a6ddb5.jpg"
+            alt="Country 3"
+          />
+          <h3>Turkey</h3>
+          <button class="more-info" href="https://www.lonelyplanet.com/turkey">
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img src="images/japan.jpg" alt="Country 4" />
+          <h3>Japan</h3>
+          <button class="more-info" href="https://www.lonelyplanet.com/japan">
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img
+            src="images/south-korea-e1634207227391-1170x630.jpg.optimal.jpg"
+            alt="Country 5"
+          />
+          <h3>South Korea</h3>
+          <button
+            class="more-info"
+            href="https://www.lonelyplanet.com/south-korea"
+          >
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img src="images/av_bourguiba.jpg" alt="Country 6" />
+          <h3>Tunisia</h3>
+          <button class="more-info" href="https://www.lonelyplanet.com/tunisia">
+            More Info
+          </button>
+        </div>
+      </div>
+      <section id="hotels-section">
+        <!-- Your content for the "Hotels" section goes here -->
+        <h2>Where To ?</h2>
+        <p>Your looking for hotels in which country?</p>
+
+        <!-- Answer Form -->
+        <form id="answer-form">
+          <label for="answer">Your Answer:</label>
+          <input type="text" id="answer" name="answer" />
+          <button type="submit">Submit</button>
+        </form>
+
+        <!-- Display User Answers Here -->
+        <div id="user-answers">
+          <h3>User Answers</h3>
+          <ul>
+            <!-- User answers will be displayed here -->
+          </ul>
+        </div>
+      </section>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
