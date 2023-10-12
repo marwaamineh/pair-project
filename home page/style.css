@@ -59,7 +59,6 @@ header .content::before {
   position: absolute;
   width: 100%;
   height: 80%;
-  /* border: 1px solid #000; */
   background: url("images/plage.jpg") no-repeat center center/cover;
   border-radius: 10px;
   z-index: -1;
@@ -74,8 +73,6 @@ header .content .cont_bx {
 header .content .cont_bx h1 {
   line-height: 40px;
   font-weight: 800;
-  /* margin:0% */
-  /* border: 1px solid #000; */
 }
 header .content .cont_bx p {
   font-size: 14px;
@@ -102,7 +99,6 @@ header .trip_bx {
   width: 95%;
   height: auto;
   margin: auto;
-  /* border: 1px solid #000; */
 }
 header .trip_bx .search_bx {
   position: absolute;
@@ -123,7 +119,6 @@ header .trip_bx .search_bx {
 header .trip_bx .search_bx .card {
   width: 200px;
   height: 100%;
-  /* border: 1px solid #000; */
 }
 header .trip_bx .search_bx .card h4 {
   font-size: 15px;
@@ -156,7 +151,6 @@ header .trip_bx .search_bx input[type="button"] {
 header .trip_bx .search_bx input[type="button"]:hover {
   background: #969696;
 }
-/* Inside your CSS file */
 #discover-section {
   background-color: #f2f2f2;
   padding: 40px 0;
@@ -194,7 +188,6 @@ header .trip_bx .search_bx input[type="button"]:hover {
 .more-info:hover {
   background-color: #0056b3;
 }
-/* Discover Section Styles */
 #discover-section {
   background-color: #f4f4f4;
   padding: 40px 0;
@@ -214,18 +207,16 @@ header .trip_bx .search_bx input[type="button"]:hover {
   border-radius: 5px;
   margin: 10px;
   text-align: center;
-  width: calc(25% - 20px); /* To make 4 boxes per row */
+  width: calc(25% - 20px);
   position: relative;
-  overflow: hidden; /* Hide overflowing content */
-  transition: transform 0.2s ease; /* Add a smooth transition effect */
-
-  /* You can add a hover effect to zoom the image here */
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  transform: scale(1);
 }
 
 .country-box:hover {
-  transform: scale(1.1); /* Zoom in by 10% when hovering */
+  transform: scale(1.1);
 }
-
 .country-box img {
   max-width: 100%;
   height: auto;
@@ -267,9 +258,6 @@ html {
 
 #confirmation-message.show {
   transform: translateY(0);
-}
-#hotels-section {
-  /* Add your styling for the "Hotels" section here */
 }
 
 #answer-form {
@@ -324,6 +312,24 @@ html {
 
 .hotel-image img {
   border-radius: 50%;
-  width: 100px; /* Adjust the size as needed */
-  height: 100px; /* Adjust the size as needed */
+  width: 100px;
+  height: 100px;
+}
+
+button#forMore5 {
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button#forMore5:hover {
+  background-color: #008b8b;
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
