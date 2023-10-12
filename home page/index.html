@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel Wide Travel Far</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h4>Travel Wide Travel Far</h4>
+        <ul>
+          <li><a id="discover-link" href="#discover-section">Discover</a></li>
+          <li><a href="#hotels-section">Travel Tips</a></li>
+          <li><a href="#">Restaurants</a></li>
+          <li><a href="#">About US</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+        <i class="bi bi-three-dots"></i>
+      </nav>
+      <div class="content">
+        <div class="cont_bx">
+          <h1>The Right destination for you and your family</h1>
+          <p>
+            Creative taglines have the capability of capturing the attention of
+            potential customers.
+          </p>
+          <button>Start your search</button>
+        </div>
+        <div class="trip_bx">
+          <div class="search_bx">
+            <div class="card">
+              <h4>Location <i class="bi bi-caret-down-fill"></i></h4>
+              <input
+                type="text"
+                name="location"
+                placeholder="Enter Your destination"
+              />
+            </div>
+            <div class="card">
+              <h4>Date <i class="bi bi-caret-down-fill"></i></h4>
+              <input type="date" name="date" />
+            </div>
+            <div class="card">
+              <h4>People <i class="bi bi-caret-down-fill"></i></h4>
+              <input
+                type="number"
+                name="people"
+                placeholder="How many people?"
+              />
+            </div>
+            <input type="button" value="Explore Now" />
+            <div id="confirmation-message" style="display: none"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="discover-section">
+      <h2>Discover</h2>
+      <div id="country-photos">
+        <div class="country-box">
+          <img src="/images/seoul.webp" alt="Country 1" />
+          <h3>Seoul</h3>
+          <button class="more-info" href="/pages html/seoul.html ">
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img src="/images/japon.webp" alt="Country 2" />
+          <h3>Tokyo</h3>
+          <button class="more-info" href="/pages html/tokyo.html">
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img src="/images/barcelona.webp" alt="Country 3" />
+          <h3>Barcelona</h3>
+          <button class="more-info" href="/pages html/barcelona.html">
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img src="/images/pammukale.jpg" alt="Country 4" />
+          <h3>Pammukale</h3>
+          <button class="more-info" href="/pages html/pamukkale.html">
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img src="/home page/images/south-korea-e1634207227391-1170x630.jpg.optimal.jpg" alt="Country 5" />
+          <h3>South Korea</h3>
+          <button
+            class="more-info"
+            href="https://www.lonelyplanet.com/south-korea"
+          >
+            More Info
+          </button>
+        </div>
+        <div class="country-box">
+          <img src="images/av_bourguiba.jpg" alt="Country 6" />
+          <h3>Tunisia</h3>
+          <button class="more-info" href="https://www.lonelyplanet.com/tunisia">
+            More Info
+          </button>
+        </div>
+      </div>
+      <section id="hotels-section">
+        <h2>Travel Tips</h2>
+        <button id="forMore5">Click to learn how to be a master at traveling</button>
+    </section>
+    <section id="aboutus">
+      <h2>About US</h2>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

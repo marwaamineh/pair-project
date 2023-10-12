@@ -1,110 +1,106 @@
-body{
-    background-image: url("/images/envio-13.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+body {
+  background-image: url("/images/envio-13.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
-img{
-    display: block;
-  width: 15%;
-  float: inline-start;
+
+h1 {
+  color: darkcyan;
+  font-weight: bolder;
+  font-size: 80px;
+  text-align: center;
+  margin: 30px 0;
 }
-h1{
-   color: darkcyan;
-   font-weight: bolder;
-   font-size: 100px;
-   text-align:center;
+
+h2 {
+  font-size: 40px;
+  text-align: center;
 }
-h2{
-    font-size: 50px;
-    text-align: center;
+
+#mustSee {
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px 0;
 }
-#mustSee{
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: center;
+
+#mustSee {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
 }
-#mustSee{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
-   
+
+.place1,
+.place2,
+.place3 {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
 }
-.place1{
-    background-color:white;
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 40px;
-    max-width: 400px;
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  margin: 10px auto;
 }
-#img1{
-    width: 300px;
+
+.moreInfo {
+  display: none;
+  padding: 10px;
 }
-.place2{
-    background-color:white;
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 40px;
-    max-width: 400px;
+
+#hotels {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px 0;
 }
-#img2{
-    width: 300px;
-    
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
 }
-.place3{
-    background-color:white;
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 40px;
-    max-width: 400px;
+
+.hotel1,
+.hotel2,
+.hotel3 {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
 }
-#img3{
-    width: 300px;
+
+#img4,
+#img5,
+#img6 {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  margin: 10px auto;
 }
-.moreInfo{
-    display: none;
+
+button {
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  margin-top: 10px;
 }
-#hotels{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
-   
-}
-h4{
-    font-size: 20px;
-    text-align: center;
-}
-.hotel1{
-    background-color:white;
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 40px;
-    max-width: 400px;
-}
-#img4{
-    width: 300px;
-}
-.hotel2{
-    background-color:white;
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 40px;
-    max-width: 400px;
-}
-#img5{
-    width: 300px;
-    
-}
-.hotel3{
-    background-color:white;
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 40px;
-    max-width: 400px;
-}
-#img6{
-    width: 300px;
+
+button:hover {
+  background-color: #008b8b;
 }
