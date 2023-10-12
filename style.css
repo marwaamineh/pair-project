@@ -1,0 +1,81 @@
+body{
+    background-image: url("images/envio-13.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+img{
+    display: block;
+  width: 15%;
+  float: inline-start;
+}
+h1{
+    color: darkcyan;
+   font-weight: bolder;
+   font-size: 70px;
+   text-align:center;
+}
+#discover{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+#images{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+#i1{
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+}
+#i2{
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+}
+#i3{
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+}
+#i4{
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+}
+
+#articles{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+#tips{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+#tip1{
+    border-radius: 100px;
+    padding: 10px;
+    margin: 40px;
+    width: 300px;
+}
+#tip2{
+    border-radius: 100px;
+    padding: 10px;
+    margin: 40px;
+    width: 250px;
+}
+#tip3{
+    border-radius: 100px;
+    padding: 10px;
+    margin: 40px;
+    width: 300px;
+}
