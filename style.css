@@ -10,48 +10,10 @@ img{
 }
 h1{
     color: darkcyan;
-   font-weight: bolder;
-   font-size: 70px;
-   text-align:center;
-}
-#discover{
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
 }
-#images{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr ;
-}
-#i1{
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    width: 300px;
-}
-#i2{
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    width: 300px;
-}
-#i3{
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    width: 300px;
-}
-#i4{
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    width: 300px;
-}
-
 #articles{
     font-weight: bolder;
     font-size: 50px;

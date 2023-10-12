@@ -7,33 +7,39 @@
     <link rel="stylesheet" href="/countries.css">
 </head>
 <body>
+  <header>
+    <img src="/images/logo.png">
+    </header>
     <h1 id="title">Hello Tokyo</h1>
     <h2>Explore Tokyo</h2>
     <div id="mustSee">
      <div class="place1">
       <h3>Tokyo Tower</h3>
-      <img id="img1" src="https://images.fineartamerica.com/images-medium-large-5/tokyo-tower-at-night-ngkaki.jpg" alt="click to show more" onclick="showMore()">
+      <img id="img1" src="https://images.fineartamerica.com/images-medium-large-5/tokyo-tower-at-night-ngkaki.jpg">
+      <button id="moreInfo" onclick="showMore(this)">Show me more</button>
       <div class="moreInfo">
         <p id="price">25DT</p>
-        <p id="openingHours">9AM-10:30PM</h5>
+        <p id="openingHours">9AM-10:30PM</p>
         <p id="descrption">A symbol of post war recovery in the center of the city Built in 1958, and standing 333 meters tall, Tokyo Tower serves as a symbol of Tokyo's rebirth after World War II. At the time of its completion, it was the tallest tower in the world, surpassing even its inspiration, the Eiffel Tower.</p>
       </div>
       </div>
       <div class="place2">
       <h3>Tokyo Disneyland</h3>
       <img id="img2" src="https://media.timeout.com/images/105560403/1920/1080/image.jpg">
+      <button id="moreInfo" onclick="showMore(this)">Show me more</button>
       <div class="moreInfo">
         <p id="price">180DT</p>
-        <p id="openingHours">8AM-10PM</h5>
+        <p id="openingHours">8AM-10PM</p>
         <p id="descrption">Tokyo Disneyland, the Kingdom of Dreams and Magic, consists of seven themed lands, each offering fun attractions in line with its theme, as well as a variety of unique shops and restaurants. Have a magical day at Tokyo Disneyland with your Disney friends!</p>
       </div>
      </div>
      <div class="place3">
       <h3>Shinjuku Gyoen National Garden</h3>
       <img id="img3" src="https://images.squarespace-cdn.com/content/v1/5d3ee66abacfa00001df6854/1590105199169-SNFLKF8XGXIW29YPPYM3/tokyo-guide-best-gardens-in-tokyo-shinjuku-gyoen.jpg?format=1500w">
+      <button id="moreInfo" onclick="showMore(this)">Show me more</button>
       <div class="moreInfo">
         <p id="price">10DT</p>
-        <p id="openingHours">9AM-4AM</h5>
+        <p id="openingHours">9AM-4AM</p>
         <p id="descrption">Shinjuku Gyoen combines three distinct types of gardens—Japanese traditional, formal and landscape with sprawling lawns and other natural landscaping. In the spring you can admire 900 cherry trees that tinge the park pink with their delicate blooms.</p>
       </div>
      </div>
@@ -47,15 +53,15 @@
     </a>
     </div>
     <div class="hotel2">
-     <h4>Henn na Hotel Seoul</h4>
-     <a href="https://www.booking.com/hotel/kr/bian-nahoteru-souruming-dong.en-gb.html?label=en-tn-booking-desktop-vGrG91d5hgN1KyCoxw4VOwS652796016390%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9075935%3Ali%3Adec%3Adm&sid=dc883164597c9d7aa0b9d3e0b8c79f6d&aid=2311236&ucfs=1&arphpl=1&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=distance_from_search&srpvid=af6b2d757c9a0093&srepoch=1697092080&from_sustainable_property_sr=1&from=searchresults#hotelTmpl">
-     <img id="img5" src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/309568068.jpg?k=26874e1b93a9eb708922a32fcb11acd75f8bd662301ea4fdb5bb6e8fcb51742b&o=&hp=1">
+     <h4>Tokyo Bay Shiomi Prince Hotel</h4>
+     <a href="https://www.booking.com/hotel/jp/tokyo-bay-shiomi-prince.en-gb.html?label=en-tn-booking-desktop-vGrG91d5hgN1KyCoxw4VOwS652796016390%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9075935%3Ali%3Adec%3Adm&sid=dc883164597c9d7aa0b9d3e0b8c79f6d&aid=2311236&ucfs=1&arphpl=1&dest_id=-246227&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=00074c2ec8e80217&srepoch=1697107813&from_sustainable_property_sr=1&from=searchresults#">
+     <img id="img5" src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/268715899.jpg?k=62893fdb910ce9259de94ccf9871e6d99ac0e35910f7364ff81db7af1c8d995a&o=&hp=1">
     </a>
     </div>
     <div class="hotel3">
-      <h4>ibis Styles Ambassador Seoul </h4>
-    <a href="https://www.booking.com/hotel/kr/ibis-styles-seoul-myeongdong.en-gb.html?label=en-tn-booking-desktop-vGrG91d5hgN1KyCoxw4VOwS652796016390%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9075935%3Ali%3Adec%3Adm&sid=dc883164597c9d7aa0b9d3e0b8c79f6d&aid=2311236&ucfs=1&arphpl=1&dest_id=99177&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&srpvid=63b12d9a0b31003e&srepoch=1697092159&from=searchresults#hotelTmpl">
-      <img id="img6" src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/425313835.jpg?k=f855ec7785bc3d818a793537660f1ade6e1d0b43e826511fde47d46a5a52b770&o=&hp=1">
+      <h4>KOKO HOTEL Residence Asakusa Kappabashi </h4>
+    <a href="https://www.booking.com/hotel/jp/koko-residence-qian-cao-katupaqiao.en-gb.html?label=en-tn-booking-desktop-vGrG91d5hgN1KyCoxw4VOwS652796016390%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9075935%3Ali%3Adec%3Adm&sid=dc883164597c9d7aa0b9d3e0b8c79f6d&aid=2311236&ucfs=1&arphpl=1&dest_id=-246227&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=93164c5ee15d0032&srepoch=1697107910&from_sustainable_property_sr=1&from=searchresults#l">
+      <img id="img6" src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/373670141.jpg?k=54cbd7da98aeb0b56b8b3d93ab2e9ed8c9a43195700a2dc28e959940f34fb551&o=&hp=1">
     </a>
     </div>
   </div>

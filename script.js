@@ -1,16 +1,9 @@
-function showMore(){
-var moreInfo=document.getElementById('moreInfo')
-if(moreInfo.style.display==="none"){
-  
-moreInfo.style.display="block"
-}
-}
-// function showMore() {
-//   var moreInfo = document.querySelector('#moreInfo'); 
+function showMore(button) {
+  var moreInfo = button.nextElementSibling;
 
-//   if (moreInfo.style.display === "none" || moreInfo.style.display === "") { 
-//     moreInfo.style.display = "block";
-//   } else {
-//     moreInfo.style.display = "none";
-//   }
-// }
+  if (moreInfo.style.display === "none" || moreInfo.style.display === "") {
+    moreInfo.style.display = "block";
+  } else {
+    moreInfo.style.display = "none";
+  }
+}
